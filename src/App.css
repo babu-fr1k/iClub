@@ -809,3 +809,96 @@ select:focus-visible {
     flex-direction: column;
   }
 }
+
+/* ASISTENTE GEMMA */
+
+.gemma-chat {
+  background: linear-gradient(135deg, #191c38, #241b42);
+  border: 1px solid #62529a;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 35px 0;
+  box-shadow: 0 12px 45px #0003;
+}
+
+.gemma-heading {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.gemma-icon {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  background: #6245ae;
+  border-radius: 15px;
+  font-size: 30px;
+  color: white;
+}
+
+.gemma-heading h2 {
+  margin: 0;
+  color: #e8ddff;
+}
+
+.gemma-heading p,
+.gemma-chat > p {
+  color: #b6b4d2;
+  line-height: 1.7;
+  font-size: 13px;
+}
+
+.gemma-chat form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.gemma-chat textarea {
+  width: 100%;
+  resize: vertical;
+  background: #11182b;
+  border: 1px solid #465176;
+  border-radius: 12px;
+  padding: 16px;
+  color: white;
+  font: inherit;
+  line-height: 1.6;
+}
+
+.gemma-chat form button {
+  align-self: flex-start;
+  background: #8359ed;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 13px 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.gemma-chat form button:disabled {
+  opacity: .6;
+  cursor: wait;
+}
+
+.gemma-response {
+  margin-top: 24px;
+  background: #30284d;
+  border: 1px solid #65549b;
+  border-radius: 13px;
+  padding: 20px;
+}
+
+.gemma-response strong {
+  color: #cdb7ff;
+}
+
+.gemma-response p {
+  white-space: pre-wrap;
+  color: #e4ddf6;
+  line-height: 1.8;
+}
