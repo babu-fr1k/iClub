@@ -966,3 +966,6 @@ select:focus-visible {
 .event-cover.event-cover-logo { background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #fff; }
 .modal-image.modal-image-logo { background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #fff; }
 .market-product-art img { object-fit: contain; object-position: center; padding: 5px; }
+
+/* Detalles de clubes */
+.club-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.club-actions button{flex:1;min-width:135px}.club-detail-modal{max-width:600px;max-height:90vh;overflow-y:auto}.club-detail-icon{font-size:48px;margin-bottom:12px}.club-detail-modal .detail-list span{overflow-wrap:anywhere}.club-detail-modal .modal-body{padding-top:34px}
